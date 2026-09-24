@@ -91,4 +91,4 @@ const io = new IntersectionObserver(
   },
   { threshold: 0.18 }
 );
-document.querySelectorAll(".steps li, .about-figure, .frame, .banner").forEach((el) => io.observe(el));
+document.querySelectorAll(".steps li, .about-figure, .aspect-card, .frame, .banner").forEach((el) => io.observe(el));
